@@ -16,11 +16,8 @@ class FathomAnalyticsServiceProvider extends PackageServiceProvider
             ->name('fathom-analytics')
             ->settings(FathomAnalyticsSettings::class)
             ->migrations([
-                __DIR__ . '/../database/migrations',
                 __DIR__ . '/../database/migrations/settings',
-            ])
-            ->backendRoutes(__DIR__.'/../routes/backend.php')
-            ->frontendRoutes(__DIR__.'/../routes/frontend.php');
+            ]);
     }
 
     public function registeringPackage()
