@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Astrogoat\FathomAnalytics\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FathomAnalyticsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'fathom-analytics';
 
     public $description = 'My command';
 
