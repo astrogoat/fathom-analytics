@@ -4,7 +4,6 @@ namespace Astrogoat\FathomAnalytics\Settings;
 
 use Helix\Lego\Settings\AppSettings;
 use Illuminate\Validation\Rule;
-use Astrogoat\FathomAnalytics\Actions\FathomAnalyticsAction;
 
 class FathomAnalyticsSettings extends AppSettings
 {

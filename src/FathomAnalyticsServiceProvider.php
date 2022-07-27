@@ -2,11 +2,11 @@
 
 namespace Astrogoat\FathomAnalytics;
 
+use Astrogoat\FathomAnalytics\Settings\FathomAnalyticsSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\FathomAnalytics\Settings\FathomAnalyticsSettings;
 
 class FathomAnalyticsServiceProvider extends PackageServiceProvider
 {
